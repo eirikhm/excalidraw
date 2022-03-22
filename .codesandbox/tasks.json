@@ -1,0 +1,128 @@
+{
+  // These tasks will run in order when initializing your CodeSandbox project.
+  "setupTasks": [
+    {
+      "name": "Install Dependencies",
+      "command": "yarn install"
+    }
+  ],
+
+  // These tasks can be run from CodeSandbox. Running one will open a log in the app.
+  "tasks": {
+    "build-node": {
+      "name": "build-node",
+      "command": "yarn build-node",
+      "runAtStart": false
+    },
+    "build:app:docker": {
+      "name": "build:app:docker",
+      "command": "yarn build:app:docker",
+      "runAtStart": false
+    },
+    "build:app": {
+      "name": "build:app",
+      "command": "yarn build:app",
+      "runAtStart": false
+    },
+    "build:version": {
+      "name": "build:version",
+      "command": "yarn build:version",
+      "runAtStart": false
+    },
+    "build": {
+      "name": "build",
+      "command": "yarn build",
+      "runAtStart": false
+    },
+    "eject": {
+      "name": "eject",
+      "command": "yarn eject",
+      "runAtStart": false
+    },
+    "fix:code": {
+      "name": "fix:code",
+      "command": "yarn fix:code",
+      "runAtStart": false
+    },
+    "fix:other": {
+      "name": "fix:other",
+      "command": "yarn fix:other",
+      "runAtStart": false
+    },
+    "fix": {
+      "name": "fix",
+      "command": "yarn fix",
+      "runAtStart": false
+    },
+    "locales-coverage": {
+      "name": "locales-coverage",
+      "command": "yarn locales-coverage",
+      "runAtStart": false
+    },
+    "locales-coverage:description": {
+      "name": "locales-coverage:description",
+      "command": "yarn locales-coverage:description",
+      "runAtStart": false
+    },
+    "prepare": {
+      "name": "prepare",
+      "command": "yarn prepare",
+      "runAtStart": false
+    },
+    "prettier": {
+      "name": "prettier",
+      "command": "yarn prettier",
+      "runAtStart": false
+    },
+    "start": {
+      "name": "start",
+      "command": "yarn start",
+      "runAtStart": true
+    },
+    "test:all": {
+      "name": "test:all",
+      "command": "yarn test:all",
+      "runAtStart": false
+    },
+    "test:app": {
+      "name": "test:app",
+      "command": "yarn test:app",
+      "runAtStart": false
+    },
+    "test:code": {
+      "name": "test:code",
+      "command": "yarn test:code",
+      "runAtStart": false
+    },
+    "test:debug": {
+      "name": "test:debug",
+      "command": "yarn test:debug",
+      "runAtStart": false
+    },
+    "test:other": {
+      "name": "test:other",
+      "command": "yarn test:other",
+      "runAtStart": false
+    },
+    "test:typecheck": {
+      "name": "test:typecheck",
+      "command": "yarn test:typecheck",
+      "runAtStart": false
+    },
+    "test:update": {
+      "name": "test:update",
+      "command": "yarn test:update",
+      "runAtStart": false
+    },
+    "test": {
+      "name": "test",
+      "command": "yarn test",
+      "runAtStart": false
+    },
+    "autorelease": {
+      "name": "autorelease",
+      "command": "yarn autorelease",
+      "runAtStart": false
+    }
+  }
+}
